@@ -259,19 +259,24 @@ nav ul li:hover .submenu {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    justify-content: center;
   }
   
+
   /* Estilo para la sección de noticias */
   #noticias {
     background-color: white;
     padding: 10px;
     border-radius: 5px;
+    text-align: center;
+    
   }
   
   #notihorizontal {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+    
   }
   
   #noticias h3 {
@@ -283,6 +288,7 @@ nav ul li:hover .submenu {
     background-color: white;
     padding: 25px;
     border-radius: 5px;
+    justify-content: center;
   }
   
   /* Estilo para la sección de convocatorias */
@@ -294,6 +300,7 @@ nav ul li:hover .submenu {
     width:100%;
     max-width: 1080px;
     justify-content: center;
+    text-align: center;
     margin: 0 auto;
   }
   
