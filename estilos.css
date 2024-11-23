@@ -397,7 +397,7 @@ footer {
     body {
         width: 100%;
         padding: 0 0px;
-        margin:0;
+        margin:0 auto;
     }
 
 /* Estilos para la cabecera */
@@ -606,39 +606,39 @@ h1 {
 
 #Contenedor {
     grid-template-columns: 1fr;
+    margin: 0 auto;
 }
 
 aside {
     display: none;
 }
 
+.servicios {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 
-    .servicios {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    }
+.enlaces-importantes div {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: auto;
+}
 
-    .enlaces-importantes div {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        width: auto;
-    }
+/* Ajuste del footer */
+footer {
+    flex-direction: column;
+    width:95vw;
+}
 
-    /* Ajuste del footer */
-    footer {
-        flex-direction: column;
-        width:95vw;
-    }
+.footer-logo {
+/*  flex-direction: column;   */
+    justify-content: space-between;
+    align-items: center;
+    width:90vw;
+}
 
-    .footer-logo {
-      /*  flex-direction: column;   */
-        justify-content: space-between;
-        align-items: center;
-        width:90vw;
-    }
-
-    .lema-institucion {
-        width: auto;
-        text-align: center;
-    }
+.lema-institucion {
+    width: auto;
+    text-align: center;
+}
 
 
 }
