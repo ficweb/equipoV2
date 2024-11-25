@@ -402,6 +402,8 @@ footer {
 }
 
 .logo-vision-footer{
+    background-color: white;
+    z-index: 100;
     transform: skew(-6.5deg); /* Inclinación de 6.5° */
 }
 
